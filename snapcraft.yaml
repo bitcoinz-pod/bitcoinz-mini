@@ -1,18 +1,18 @@
-name: zcash-mini
+name: bitcoinz-mini
 version: master
-summary: A minimal portable Zcash z-address generator for offline / paper wallets
+summary: Portable BitcoinZ anonymous z-address generator for offline / paper wallets
 description: |
-  zcash-mini is a minimal, portable Zcash wallet generator in Go.
+  bitcoinz-mini is a minimal, portable BitcoinZ wallet generator in Go.
 
 grade: devel
 confinement: strict
 
 apps:
-  zcash-mini:
-    command: zcash-mini
+  bitcoinz-mini:
+    command: bitcoinz-mini
 
 parts:
-  zcash-mini:
+  bitcoinz-mini:
     source: .
     plugin: go
-    go-importpath: github.com/FiloSottile/zcash-mini
+    go-importpath: github.com/bitcoinz-pod/bitcoinz-mini

@@ -1,13 +1,13 @@
-IMPORT_PATH := github.com/FiloSottile/zcash-mini
+IMPORT_PATH := github.com/FiloSottile/bitcoinz-mini
 V := 1 # When V is 1, print commands and build progress.
 IGNORED_PACKAGES := /vendor/
 
 .PHONY: all
-all: zcash-mini
+all: bitcoinz-mini
 
-.PHONY: zcash-mini
-zcash-mini: .GOPATH/.ok
-	$Q go install $(if $V,-v) $(VERSION_FLAGS) github.com/FiloSottile/zcash-mini
+.PHONY: bitcoinz-mini
+bitcoinz-mini: .GOPATH/.ok
+	$Q go install $(if $V,-v) $(VERSION_FLAGS) github.com/FiloSottile/bitcoinz-mini
 
 ##### =====> Utility targets <===== #####
 

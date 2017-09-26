@@ -1,3 +1,12 @@
+# bitcoinz-mini
+
+```
+$ go get -u github.com/bitcoinz-pod/bitcoinz-mini
+$ bitcoinz-mini
+```
+
+*bitcoinz is based on zcash-mini*
+
 # zcash-mini
 
 `zcash-mini` is a minimal, portable Zcash wallet generator in Go.

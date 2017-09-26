@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/FiloSottile/zcash-mini/sha256"
+	"github.com/bitcoinz-pod/bitcoinz-mini/sha256"
 	"github.com/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/curve25519"
 )

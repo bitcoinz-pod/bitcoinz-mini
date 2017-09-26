@@ -8,29 +8,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/FiloSottile/zcash-mini/bip39"
-	"github.com/FiloSottile/zcash-mini/zcash"
+	"github.com/bitcoinz-pod/bitcoinz-mini/bip39"
+	"github.com/bitcoinz-pod/bitcoinz-mini/zcash"
 )
 
 var logo = `
 
-             :88SX@888@@X8:
-          %%Xt%tt%SSSSS:XXXt@@
-        @S;;tt%%%t    ;;::XXXXSX
-      .t:::;;%8888    88888tXXXX8;
-     .%...:::8             8::XXX%;
-     8888...:t888888X     8t;;::XX8
-    %888888...:::;:8    :Xttt;;;::X@
-    888888888...:St    8:%%tttt;;;:X
-    88888888888S8    :%;ttt%%tttt;;X
-    %888888888%t    8S:;;;tt%%%ttt;8
-     8t8888888     S8888888Stt%%%t@
-     .@tt888@              8;;ttt@;
-      .8ttt8@SSSSS    SXXXX%:;;;X;
-        X8ttt8888%    %88...::X8
-          %8@tt88;8888%8888%8X
-             :@888@XXX@888:
-
+                BitcoinZ
                     _       _
           _ __ ___ (_)_ __ (_)
          | '_ \ _ \| | '_ \| |
@@ -67,7 +51,7 @@ var template = `%s
 #      %s
 #      %s
 #
-#  Run "zcash-mini -mnemonic" to rebuild your secret key
+#  Run "bitcoinz-mini -mnemonic" to rebuild your secret key
 #
 ###############################################################
 #
