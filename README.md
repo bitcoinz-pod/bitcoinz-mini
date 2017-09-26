@@ -5,7 +5,7 @@ $ go get -u github.com/bitcoinz-pod/bitcoinz-mini
 $ bitcoinz-mini
 ```
 
-*bitcoinz is based on zcash-mini*
+*bitcoinz-mini is based on zcash-mini*
 
 # zcash-mini
 
