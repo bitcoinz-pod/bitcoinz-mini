@@ -96,3 +96,8 @@ Balance management and spending operations are not supported.
 * receive Zcash on a t-address in a full node
 * send the Zcash to the z-address yourself
 * to spend the Zcash, export the private key to a full node
+
+Security Warnings
+-----------------
+
+**BitcoinZ is experimental and a work-in-progress.** Use at your own risk.
